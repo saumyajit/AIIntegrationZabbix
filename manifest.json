@@ -25,14 +25,14 @@
     },
     "assets": {
         "css": [
-            "assets/css/aiintegration.css"
+            "aiintegration.css"
         ],
         "js": [
-            "assets/js/aiintegration-core.js",
-            "assets/js/aiintegration-init.js",
-            "assets/js/aiintegration-problems.js",
-            "assets/js/aiintegration-latestdata.js",
-            "assets/js/aiintegration-forms.js"
+            "aiintegration-core.js",
+            "aiintegration-init.js",
+            "aiintegration-problems.js",
+            "aiintegration-latestdata.js",
+            "aiintegration-forms.js"
         ]
     }
 }
