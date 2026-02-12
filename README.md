@@ -1,3 +1,4 @@
+# IN DEVELOPMENT => NOT WORKING
 # AI Integration for Zabbix - FIXED VERSION
 
 ## What Was Fixed
