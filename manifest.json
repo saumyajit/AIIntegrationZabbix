@@ -1,0 +1,38 @@
+{
+    "manifest_version": 2.0,
+    "id": "AI-Integration",
+    "name": "Integrating AI with Zabbix",
+    "version": "2.0.0",
+    "author": "Saumyajit",
+    "namespace": "AIIntegration",
+    "url": "",
+    "description": "Integrate AI models with Zabbix monitoring workflows - Chat, Quick Actions, and Contextual Analysis",
+    "actions": {
+        "aiintegration.config": {
+            "class": "CControllerAIConfig",
+            "view": "aiintegration.config"
+        },
+        "aiintegration.collab": {
+            "class": "CControllerAICollab",
+            "view": "aiintegration.collab"
+        },
+        "aiintegration.providers": {
+            "class": "CControllerAIProviders"
+        },
+        "aiintegration.query": {
+            "class": "CControllerAIQuery"
+        }
+    },
+    "assets": {
+        "css": [
+            "assets/css/aiintegration.css"
+        ],
+        "js": [
+            "assets/js/aiintegration-core.js",
+            "assets/js/aiintegration-init.js",
+            "assets/js/aiintegration-problems.js",
+            "assets/js/aiintegration-latestdata.js",
+            "assets/js/aiintegration-forms.js"
+        ]
+    }
+}

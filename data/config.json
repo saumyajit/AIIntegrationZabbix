@@ -1,0 +1,73 @@
+{
+    "openai": {
+        "api_endpoint": "https://api.openai.com/v1/chat/completions",
+        "default_model": "gpt-4o",
+        "temperature": "0.7",
+        "max_tokens": "1000",
+        "api_key": "",
+        "enabled": false
+    },
+    "github": {
+        "api_endpoint": "https://models.inference.ai.azure.com/chat/completions",
+        "default_model": "gpt-4o-mini",
+        "temperature": "0.7",
+        "max_tokens": "1000",
+        "api_key": "",
+        "enabled": false
+    },
+    "anthropic": {
+        "api_endpoint": "https://api.anthropic.com/v1/messages",
+        "default_model": "claude-sonnet-4-20250514",
+        "temperature": "0.7",
+        "max_tokens": "1000",
+        "api_key": "",
+        "enabled": false
+    },
+    "gemini": {
+        "api_endpoint": "https://generativelanguage.googleapis.com/v1beta/models",
+        "default_model": "gemini-pro",
+        "temperature": "0.7",
+        "max_tokens": "1000",
+        "api_key": "",
+        "enabled": false
+    },
+    "deepseek": {
+        "api_endpoint": "https://api.deepseek.com/v1/chat/completions",
+        "default_model": "deepseek-chat",
+        "temperature": "0.7",
+        "max_tokens": "1000",
+        "api_key": "",
+        "enabled": false
+    },
+    "mistral": {
+        "api_endpoint": "https://api.mistral.ai/v1/chat/completions",
+        "default_model": "mistral-large-latest",
+        "temperature": "0.7",
+        "max_tokens": "1000",
+        "api_key": "",
+        "enabled": false
+    },
+    "groq": {
+        "api_endpoint": "https://api.groq.com/openai/v1/chat/completions",
+        "default_model": "llama3-70b-8192",
+        "temperature": "0.7",
+        "max_tokens": "1000",
+        "api_key": "",
+        "enabled": false
+    },
+    "custom": {
+        "api_endpoint": "",
+        "default_model": "",
+        "temperature": "0.7",
+        "max_tokens": "1000",
+        "api_key": "",
+        "enabled": false
+    },
+    "default_provider": "openai",
+    "quick_actions": {
+        "problems": true,
+        "triggers": true,
+        "items": true,
+        "hosts": true
+    }
+}
